@@ -1,0 +1,26 @@
+{
+  "name": "sa_tarea5_201603166",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "gulp-zip": "^5.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dresz/SA_Tarea5_201603166.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dresz/SA_Tarea5_201603166/issues"
+  },
+  "homepage": "https://github.com/Dresz/SA_Tarea5_201603166#readme"
+}
