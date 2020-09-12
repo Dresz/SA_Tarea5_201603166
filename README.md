@@ -1,7 +1,8 @@
 # SA_Tarea5_201603166
 # Construccion de Artefacto
 Se utilizó gulp con node para utilizar el artefacto, para ello se desarrolla un archivo gulpfile.js y para ejecutarlo unicamente se necesita el comando:
-```gulp
+```
+gulp
 ```
 # Apartados
 ## Cliente
