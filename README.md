@@ -1,5 +1,7 @@
 # SA_Tarea3_201603166
-# Link del video: https://youtu.be/wBdbTfx4V74
+# Construccion de Artefacto
+Se utilizó gulp con node para utilizar el artefacto, para ello se desarrolla un archivo gulpfile.js y para ejecutarlo unicamente se necesita el comando:
+```gulp```
 # Apartados
 ## Cliente
 Apartado que pedira una orden y podra revisar los estados en el restaurante y con el repartidor.
