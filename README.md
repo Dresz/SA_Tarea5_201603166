@@ -1,4 +1,14 @@
 # SA_Tarea5_201603166
+# Video de Pruebas [Aqui](https://youtu.be/ySjiAuPISx8)
+# Pruebas
+Se realizaron pruebas unitarias con Mocha y nyc, el comando para correra las pruebas es:
+```
+npm run coverage
+```
+y por ultimo se ejecuto SonnarQube con el comando: 
+```
+npm run coverage
+```
 # Construccion de Artefacto
 Se utilizó gulp con node para utilizar el artefacto, para ello se desarrolla un archivo gulpfile.js y para ejecutarlo unicamente se necesita el comando:
 ```
