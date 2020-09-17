@@ -23,7 +23,22 @@ app.post('/recibirpedido', function (req, res) {
     console.log(estado)
     res.send(estado)
   })
-
+function entregado(cuerpo){
+  console.log('estado de la orden: '+cuerpo)    
+    estado = "entregada"
+    console.log(estado)
+    return estado
+}
+function orden(orden){
+  console.log('Orden recibida: '+orden)
+  return 'pedido recibido y en camino a entregar'
+}
+function estado2(orden){
+    console.log('estado de la orden: '+orden)
+    estado = 'en camino a entregar la orden'
+    console.log(estado)
+    return estado
+}
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
@@ -33,3 +48,7 @@ app.get('/', function (req, res) {
 app.listen(8080, function () {
   console.log('app listening on port 8080!')
 })
+
+module.exports.entregado = entregado;
+module.exports.orden = orden;
+module.exports.estado2 = estado2;
