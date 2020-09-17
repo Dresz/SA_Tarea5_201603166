@@ -1,0 +1,6 @@
+projectKey=Practica6
+serverUrl=http://localhost:9000
+serverVersion=8.4.1.35646
+dashboardUrl=http://localhost:9000/dashboard?id=Practica6
+ceTaskId=AXSap1tVj-B-HMfqolt8
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXSap1tVj-B-HMfqolt8
