@@ -7,7 +7,7 @@ npm run coverage
 ```
 y por ultimo se ejecuto SonnarQube con el comando: 
 ```
-npm run coverage
+sonar-scanner
 ```
 # Construccion de Artefacto
 Se utilizó gulp con node para utilizar el artefacto, para ello se desarrolla un archivo gulpfile.js y para ejecutarlo unicamente se necesita el comando:
